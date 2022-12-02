@@ -219,8 +219,8 @@ img, .formulario, .mapa{
     margin: auto;
 }
 .imgPpal{
-    border: 0.4rem solid black;
-    border-radius: 2rem;
+    border: none;
+    border-radius: 0rem;
 }
 img:hover{
     transform: scale(1.1);
@@ -229,6 +229,15 @@ img:hover{
 .imgPpal:hover{
     transform: none;
     transition: none;
+}
+.acercar{
+    overflow: hidden;
+}
+.acercar .imgPpal{
+    transition: all 2s;
+}
+.acercar:hover .imgPpal{
+    transform: scale(1.1);
 }
 
 /* de 480px a 768px */
@@ -348,7 +357,7 @@ img:hover{
         gap: 3rem;
     }
     .imgPpal{
-        width: 80rem;
+        width: 110rem;
         height: 75rem;
     }
     .formulario{
