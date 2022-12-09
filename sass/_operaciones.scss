@@ -1,0 +1,21 @@
+.extends{
+    border: 0.3rem solid black;
+}
+header{
+    @extend .extends;
+    background-color:rgb(110, 140, 223);
+    border-radius: 0 0 4rem 4rem;
+}
+footer{
+    @extend .extends;
+    background-color:teal;
+    border-radius: 4rem 4rem 0 0;
+}
+
+@mixin size ($width, $height){
+    width: $width;
+    height: $height;
+}
+img{
+    @include size (30rem, 25rem);
+}

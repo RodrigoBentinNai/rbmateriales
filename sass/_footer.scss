@@ -1,0 +1,60 @@
+footer{
+    width: 100%;
+    padding: 0.5rem;
+    max-width: 1920px;
+    margin: auto;
+}
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 112rem;
+    padding-left: 7.65rem;
+    padding-right: 7.65rem;
+    margin: auto;
+}
+.datos1{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
+    text-align: center;
+}
+.datos2{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+.us{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    text-align: center;
+}
+.redes{
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    margin: auto;
+    text-align: center;
+}
+.aFooter{
+    color:black;
+    font-weight: bolder;
+}
+.dFooter{
+    text-decoration: underline;
+}
+.bFooter{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.eFooter{
+    font-weight: lighter;
+}

@@ -1,0 +1,24 @@
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: nav;
+}
+main{
+    grid-area: main;
+}
+.marcas-img{
+    grid-area: marcas;
+}
+.clientes-img{
+    grid-area: clientes;
+}
+.gruesa-img{
+    grid-area: gruesa;
+} 
+.terminaciones-img{
+    grid-area: terminaciones;
+}
+footer{
+    grid-area: footer;
+}

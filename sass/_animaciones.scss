@@ -1,0 +1,17 @@
+img:hover{
+    transform: scale(1.1);
+    transition: all 3s;
+}
+.imgPpal:hover{
+    transform: none;
+    transition: none;
+}
+.acercar{
+    overflow: hidden;
+}
+.acercar .imgPpal{
+    transition: all 3s;
+}
+.acercar:hover .imgPpal{
+    transform: scale(1.1);
+}

@@ -1,0 +1,61 @@
+main{
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.imgPpal{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+h1, h2{
+    display: grid;
+    justify-content: center;
+    list-style-type: none;
+    hr{
+        width: 40rem;
+        height: 0.1rem;
+        margin: auto;
+    }
+}
+h1{
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+p{
+    color: $color;
+    font-weight: lighter;
+    font-size: $size;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.parrafoGrande{
+    color: grey;
+}
+.formulario{
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 2rem;
+    gap: 0.5rem;
+}
+.enviar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mapa{
+    border: 1rem solid black;
+    border-radius: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
