@@ -321,6 +321,20 @@ img:hover {
   }
 }
 
+.datos1, .datos2, .us {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .datos1, .datos2, .us {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .datos1, .datos2, .us {
+    width: 33%;
+  }
+}
+
 img, .formulario, .mapa {
   width: 25rem;
   height: 20rem;
@@ -374,7 +388,7 @@ img, .formulario, .mapa {
     height: 55rem;
   }
   .formulario {
-    width: 70rem;
+    width: 74rem;
     height: 30rem;
   }
   .mapa {
@@ -398,7 +412,7 @@ img, .formulario, .mapa {
     height: 75rem;
   }
   .formulario {
-    width: 70rem;
+    width: 74rem;
     height: 30rem;
   }
   .mapa {
